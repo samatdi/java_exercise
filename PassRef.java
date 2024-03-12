@@ -1,3 +1,4 @@
+// 참조에 의한 호출(call by reference)과 기본 데이터 타입의 값 변경
 class Ref {
     int a;
     Ref(int x) {
@@ -5,8 +6,9 @@ class Ref {
     }
     int sum(Ref obj) {
         int k; 
-        k = obj.a - a; 
-        a = 10; obj.a = 20;
+        k = obj.a - a; // 여기서 obj는 obj1을 참조하고, this는 obj2를 참조함.(3-4)
+        a = 10; // obj2의 a를 10으로 변경 
+        obj.a = 20; // obj1의 a를 20으로 변경
         return k;
     }
 }
