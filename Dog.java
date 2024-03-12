@@ -1,3 +1,4 @@
+// 자바 기초
 public class Dog {
     private String name; // 필드: Dog 객체의 이름을 저장.
 

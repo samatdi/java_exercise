@@ -1,3 +1,4 @@
+// 다음 자바 코드를 컴파일할 때, 문법 오류가 발생하는 부분은?
 class Person { 
     private String name; 
     public int age; 
@@ -20,3 +21,4 @@ class PersonTest {
         System.out.println(a); // ㉣
     }
 }
+// ㉢
